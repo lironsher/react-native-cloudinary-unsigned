@@ -3,8 +3,8 @@ import fileType from "react-native-file-type";
 
 const API_END_POINT = "https://api.cloudinary.com/v1_1/";
 
-const CLOUD_NAME = null;
-const UPLOAD_PROFILE_NAME = null;
+let CLOUD_NAME = null;
+let UPLOAD_PROFILE_NAME = null;
 
 class RNCloudinaryUnsigned {
   init = (a, b) => {
